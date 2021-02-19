@@ -1,0 +1,10 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: DEPARTMENT-SERVICE
+  datasource:
+    url: jdbc:h2:mem:departments
+    driverClassName: org.h2.Driver
+  zipkin:
+    base-url: http://127.0.0.1:9411/

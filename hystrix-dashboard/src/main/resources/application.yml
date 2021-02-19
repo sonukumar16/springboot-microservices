@@ -1,0 +1,12 @@
+server:
+  port: 9295
+spring:
+  application:
+    name: HYSTRIX-DASHBOARD
+  datasource:
+    url: jdbc:h2:mem:users
+    driverClassName: org.h2.Driver
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
